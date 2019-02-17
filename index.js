@@ -13,7 +13,7 @@ const fileFilter = function(req, file, cb) {
     cb(null, true);
 }
 
-// Multer middleware
+// Multer middleware, yeah
 const MAX_SIZE = 200000;
 const upload = multer({
     dest: './uploads/',
